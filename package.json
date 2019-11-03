@@ -1,0 +1,24 @@
+{
+  "name": "efa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larafonse/Express-First-Attempt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larafonse/Express-First-Attempt/issues"
+  },
+  "homepage": "https://github.com/larafonse/Express-First-Attempt#readme",
+  "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
