@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/larafonse/Express-First-Attempt#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "expres": "0.0.5",
     "express": "^4.17.1",
+    "mongoose": "^5.7.7",
     "nodemon": "^1.19.4"
   }
 }
