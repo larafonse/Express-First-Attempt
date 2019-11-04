@@ -9,7 +9,7 @@ require('dotenv/config');
 // });
 
 //IMPORTS
-const postsRoute = require('.routes/post') ;
+const postsRoute = require('./routes/post') ;
 
 app.use('/post', postsRoute);
 //ROUTES
@@ -18,7 +18,7 @@ app.get('/', (req,res) =>{
 });
 
 
-//CONNECTS TO DATABASE
+//CONNECTS TO DATABAE
 mongoose.connect(process.env.DB_CONNECTION,
 { useNewUrlParser: true },
 ()=>console.log('we are in the system'))
