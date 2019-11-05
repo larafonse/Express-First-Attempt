@@ -8,9 +8,10 @@ require('dotenv/config');
 //     console.log('hey bro gg')
 // });
 
-//IMPORTS
+//IMPORTS routes from /routes/Post
 const postsRoute = require('./routes/post') ;
 
+//when /post is added to url the postroute func is activated
 app.use('/post', postsRoute);
 //ROUTES
 app.get('/', (req,res) =>{
@@ -18,7 +19,7 @@ app.get('/', (req,res) =>{
 });
 
 
-//CONNECTS TO DATABAE
+//CONNECTS TO DATABA E
 mongoose.connect(process.env.DB_CONNECTION,
 { useNewUrlParser: true },
 ()=>console.log('we are in the system'))
